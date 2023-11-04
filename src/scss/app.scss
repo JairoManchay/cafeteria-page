@@ -1,0 +1,10 @@
+// la nueva manera de agregar archivos externos de scss al principal
+//@use 'header/header';
+@use 'base';
+@use 'header';
+@use 'footer';
+@use 'inicio';
+@use 'internas';
+
+
+@use 'utilidades';
